@@ -1,0 +1,49 @@
+body {
+	background: #fff;
+	margin: 0;
+}
+
+header {
+	background: grey;
+	padding: 15px;
+	color: #fff;
+}
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+header a:hover {
+	color: blue;
+	text-decoration: none;
+}
+header #pull-right {
+	float: right;
+}
+header button {
+	background: grey;
+	color: white;
+}
+header button:hover {
+	color: blue;
+}
+#side-nav {
+	position: absolute;
+	background: black;
+	height: 100%;
+	width: 150px;
+	color: white;
+	padding: 10px;
+	z-index:1000;
+}
+#sid-nav #links {
+	background: red;
+	color: #fff;
+	text-decoration: none;
+}
+#main-content {
+	margin-left: 150px;
+	background: ;
+}
+#main-content #main {
+	padding-left: 25px;
+}
